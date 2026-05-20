@@ -2,11 +2,19 @@
 
 console.log("Sum Module excuted");
 
-function calSum(a,b) {
-    const sum = a + b;
+// This is ES Moules
+export function calSum(a,b){
+    const sum = a+b;
 
-    console.log(sum);
+    console.log(sum)
 }
 
+// This is commonJS 
+// function calSum(a,b) {
+//     const sum = a + b;
 
-module.exports = calSum;
+//     console.log(sum);
+// }
+
+
+// module.exports = calSum; 
