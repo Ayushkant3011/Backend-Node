@@ -1,5 +1,6 @@
-require("./xyz.js");
+require("./xyz.js"); // Importing anotehr module to the main file 
 
+require("./sum.js");
 
 var name = "Ayush";
 
@@ -9,4 +10,6 @@ var b =10;
 console.log(name);
 console.log(a+b);
 
+
+calSum(a,b);
 // console.log(global);
