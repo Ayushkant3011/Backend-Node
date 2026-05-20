@@ -1,7 +1,7 @@
-// require("./xyz.js"); // Importing anotehr module to the main file 
+require("./xyz.js"); // Importing anotehr module to the main file 
 
-// const calSum = require("./sum.js"); // THIS IS COMMONJS
-import { calSum } from "./sum.js"; // THIS IS ES MODULES
+const calSum = require("./sum.js"); // THIS IS COMMONJS
+// import { calSum } from "./sum.js"; // THIS IS ES MODULES
 
 var name = "Ayush";
 
