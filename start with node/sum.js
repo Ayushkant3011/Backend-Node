@@ -7,3 +7,6 @@ function calSum(a,b) {
 
     console.log(sum);
 }
+
+
+module.exports = calSum;

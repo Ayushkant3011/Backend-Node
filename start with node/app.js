@@ -1,6 +1,6 @@
 require("./xyz.js"); // Importing anotehr module to the main file 
 
-require("./sum.js");
+const calSum = require("./sum.js");
 
 var name = "Ayush";
 
