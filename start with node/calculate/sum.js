@@ -17,4 +17,4 @@ function calSum(a,b) {
 }
 
 
-module.exports = calSum; 
+module.exports = {calSum}; 
