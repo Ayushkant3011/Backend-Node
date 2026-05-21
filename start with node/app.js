@@ -7,7 +7,7 @@ const {calSum, mulSum} = require("./calculate");
 
 const data = require("./data.json");
 
-console.log(data);
+console.log(JSON.stringify(data));
 
 var name = "Ayush";
 
