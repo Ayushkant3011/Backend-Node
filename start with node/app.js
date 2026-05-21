@@ -5,6 +5,9 @@ require("./xyz.js"); // Importing anotehr module to the main file
 
 const {calSum, mulSum} = require("./calculate");
 
+const data = require("./data.json");
+
+console.log(data);
 
 var name = "Ayush";
 
