@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 const URI = 
-    "mongodb+srv://ayushkant3011:omUvhWqZ9wiu0lJ5@cluster0.ks4sm.mongodb.net/";
+    "PASTE_URL_HERE";
 
 
 
